@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'Fox Web',
+      title: 'Foxy Web',
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/imgs/fox.svg' },]
     }
