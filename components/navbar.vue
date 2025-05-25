@@ -27,7 +27,6 @@
           >Contact</a
         >
       </div>
-      <Toggle />
     </div>
 
     <div
