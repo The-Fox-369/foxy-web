@@ -9,7 +9,7 @@
         class="h-12 w-12 rounded-full"
       />
 
-      <button @click="toggleMenu" class="md:hidden">
+      <button @click="toggleMenuHandler()" class="md:hidden">
         <img src="../public/imgs/menu.svg" alt="Menu" class="h-6 w-6" />
       </button>
 
@@ -54,6 +54,13 @@
   </nav>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+
+const toggleMenu = ref(false);
+function toggleMenuHandler() {
+  toggleMenu.value = !toggleMenu.value;
+}
+</script>
 
 <style scoped></style>
