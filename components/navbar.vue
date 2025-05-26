@@ -30,7 +30,7 @@
     </div>
 
     <div
-      v-if="menuOpen"
+      v-if="toggleMenu"
       class="flex flex-col items-center p-4 shadow-md md:hidden"
     >
       <a href="#hero" class="py-2 text-gray-600 duration-300 hover:text-black"
