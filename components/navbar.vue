@@ -26,6 +26,7 @@
         <a href="#contact" class="text-gray-600 duration-300 hover:text-black"
           >Contact</a
         >
+        <Toggle />
       </div>
     </div>
 
@@ -49,12 +50,14 @@
         class="py-2 text-gray-600 duration-300 hover:text-black"
         >Contact</a
       >
+      <Toggle />
     </div>
   </nav>
 </template>
 
 <script setup>
 import { ref } from "vue";
+import Toggle from "./toggle.vue";
 
 const toggleMenu = ref(false);
 function toggleMenuHandler() {
