@@ -7,8 +7,8 @@
       class="text-white"
       :name="
         isDark
-          ? 'material-symbols:wb-sunny-rounded'
-          : 'material-symbols:dark-mode-rounded'
+          ? 'material-symbols:dark-mode-rounded'
+          : 'material-symbols:wb-sunny-rounded'
       "
     />
   </button>
