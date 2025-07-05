@@ -11,7 +11,6 @@
           : 'material-symbols:wb-sunny-rounded'
       "
     />
-    hey there
     <span class="text-white">
       {{ isDark ? "Dark Mode" : "Light Mode" }}
     </span>
